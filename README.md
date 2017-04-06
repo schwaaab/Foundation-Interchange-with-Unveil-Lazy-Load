@@ -7,7 +7,7 @@ Foundation Interchange 6 Lazy Load through jQuery Unveil
 
 ## Usage
 
-Replace the Foundation Interchange data-attribute from "data-interchange" to "data-lazy". It works for both images and divs.
+Replace the Foundation Interchange data-attribute from "data-interchange" to "data-lazy". It works for both images and background images.
 
 ```html
 <img data-lazy="[assets/img/interchange/small.jpg, small], [assets/img/interchange/medium.jpg, medium], [assets/img/interchange/large.jpg, large]">
@@ -16,7 +16,7 @@ Replace the Foundation Interchange data-attribute from "data-interchange" to "da
 
 ## Call plugin
 
-The example will load the plugin on all elements with the "data-lazy" attribute and load the image on an offset of 700px.
+The example below will initialize the plugin on all elements with the "data-lazy" attribute and load the image on an offset of 700px.
 
 ```html
 $('[data-lazy]').unveilInterchange(700);
